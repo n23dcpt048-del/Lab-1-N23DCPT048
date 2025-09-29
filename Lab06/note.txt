@@ -1,0 +1,18 @@
+# Lab 06 – ATM Class & Package Design
+
+## Class Diagram
+- **ATM**: quản lý giao dịch, xác thực, rút/nhận tiền, chuyển khoản.  
+- **Card**: chứa thông tin thẻ (cardNo, pinHash, status).  
+- **Account**: tài khoản ngân hàng, có số dư, debit/credit.  
+- **Transaction**: ghi nhận các giao dịch (id, type, amount, time, status).  
+
+## Package Diagram
+- **UI**: giao diện người dùng (LoginForm, WithdrawForm, TransactionSummary).  
+- **Controller**: điều phối luồng xử lý, gọi dịch vụ và phần cứng.  
+- **BankService**: xử lý logic nghiệp vụ (AccountService, TransactionService).  
+- **Hardware**: mô phỏng thiết bị (CardReader, CashDispenser, Printer).  
+
+## Ghi chú
+- Thiết kế dựa trên Use Case & Sequence Diagram ở Lab03.  
+- Class Diagram mô tả chi tiết thuộc tính & phương thức chính.  
+- Package Diagram giúp phân tách rõ ràng UI, logic, dịch vụ và phần cứng.  
