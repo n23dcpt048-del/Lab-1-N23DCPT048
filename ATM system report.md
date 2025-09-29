@@ -9,6 +9,8 @@
 - **Epic:** ATM Basic Functions  
 - **User Stories:** Rút tiền, Kiểm tra số dư, Chuyển khoản, Bảo trì  
 - **Tasks/Subtasks:** Thiết kế UI, Viết code, Test...
+<img width="1562" height="204" alt="image" src="https://github.com/user-attachments/assets/461cbf35-22a9-40c6-935b-fb4809bdb233" />
+
 
 ## 3. Sprint Board
 - **Sprint 1 (2 tuần):** Bao gồm User Story 1 (Rút tiền) và User Story 2 (Kiểm tra số dư)
@@ -17,8 +19,6 @@
 - **Mục tiêu Sprint:** Hoàn thành chức năng rút tiền và xem số dư  
 - **Thời gian:** 2 tuần  
 - **Kết quả:** Tiến độ được hiển thị qua Burndown Chart  
-
-> _📸 Chèn ảnh chụp màn hình Burndown Chart ở đây_
 
 ## 5. Kết luận
 Qua lab này, nhóm đã thực hành tạo backlog, sprint, quản lý task trên Jira theo Scrum.  
