@@ -9,16 +9,14 @@
 - **Epic:** ATM Basic Functions  
 - **User Stories:** Rút tiền, Kiểm tra số dư, Chuyển khoản, Bảo trì  
 - **Tasks/Subtasks:** Thiết kế UI, Viết code, Test...
-<img width="1562" height="204" alt="image" src="https://github.com/user-attachments/assets/461cbf35-22a9-40c6-935b-fb4809bdb233" />
-<img width="537" height="626" alt="image" src="https://github.com/user-attachments/assets/0cda30f2-1655-47c3-8e7b-84362f2ef869" />
-<img width="1603" height="709" alt="image" src="https://github.com/user-attachments/assets/f845a243-627a-4bfc-bd04-e293a2cc57e0" />
+<img width="1560" height="831" alt="image" src="https://github.com/user-attachments/assets/7c00078a-b846-4f1b-8d07-93296589423f" />
+
 
 
 
 ## 3. Sprint Board
 - **Sprint 1 (2 tuần):** Bao gồm User Story 1 (Rút tiền) và User Story 2 (Kiểm tra số dư)
-<img width="966" height="279" alt="image" src="https://github.com/user-attachments/assets/26c81529-e723-4b2f-a2da-6ca0cd86a2d2" />
-<img width="1079" height="622" alt="image" src="https://github.com/user-attachments/assets/aece8e5c-11a0-4056-95cd-e77d1e3514ee" />
+<img width="1598" height="520" alt="image" src="https://github.com/user-attachments/assets/6c1833cd-9d82-40bc-b85a-94109a0a784e" />
 
 
 ## 4. Báo cáo Sprint
