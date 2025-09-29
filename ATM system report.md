@@ -26,7 +26,8 @@
 - **Thời gian:** 2 tuần  
 - **Kết quả:** Tiến độ được hiển thị qua Burndown Chart
 <img width="1545" height="821" alt="image" src="https://github.com/user-attachments/assets/08f5e1ad-d046-4c69-845a-138d1a62a1a2" />
-<img width="1593" height="799" alt="image" src="https://github.com/user-attachments/assets/dbb469ca-dddb-4241-adc7-1af73e25f554" />
+<img width="1590" height="813" alt="image" src="https://github.com/user-attachments/assets/afbe5b54-e52b-48da-972c-30c9c2723bd1" />
+
 
 
 ## 5. Kết luận
