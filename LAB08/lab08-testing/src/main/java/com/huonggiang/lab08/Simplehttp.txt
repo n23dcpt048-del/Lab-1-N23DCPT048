@@ -1,0 +1,33 @@
+package com.example.atm;
+
+import com.sun.net.httpserver.HttpServer;
+import com.sun.net.httpserver.HttpHandler;
+import com.sun.net.httpserver.HttpExchange;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.net.InetSocketAddress;
+
+public class SimpleHttpServer {
+    public static void main(String[] args) throws Exception {
+        HttpServer server = HttpServer.create(new InetSocketAddress(8080), 0);
+
+        // Serve index.html khi truy cập /
+        server.createContext("/", new HttpHandler() {
+            @Override
+            public void handle(HttpExchange exchange) throws IOException {
+                Path filePath = Path.of("index.html"); // index.html ở root project
+                byte[] fileBytes = Files.readAllBytes(filePath);
+                exchange.getResponseHeaders().add("Content-Type", "text/html; charset=UTF-8");
+                exchange.sendResponseHeaders(200, fileBytes.length);
+                try (OutputStream os = exchange.getResponseBody()) {
+                    os.write(fileBytes);
+                }
+            }
+        });
+
+        System.out.println("Server running at http://localhost:8080/");
+        server.start();
+    }
+}
